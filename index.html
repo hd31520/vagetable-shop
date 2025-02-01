@@ -14,23 +14,19 @@
 
 
 
-    <!-- <script>
-        module.exports = {
-            theme: {
-                extend: {
-                    backgroundImage: {
-                        'custom-gradient': 'linear-gradient(180deg, rgb(255, 255, 255), rgb(239, 235, 227) 100%)',
-                    },
-                },
-            },
-        }
-    </script> -->
+
+    <link rel="stylesheet" href="styles/style.css">
+
+
+    <script src="https://kit.fontawesome.com/09a993f1ab.js" crossorigin="anonymous"></script>
+
 
 </head>
 
-<body class="bg-white">
+<body class="bg-white ">
     <!-- Header  Section -->
-    <header class="px-3 lg:px-28  h-96 bg-line " style="background: linear-gradient(180deg, rgb(255, 255, 255), rgb(239, 235, 227) 100%);">
+    <header class="px-3 lg:px-28  bg-line "
+        style="background: linear-gradient(180deg, rgb(255, 255, 255), rgb(239, 235, 227) 100%);">
         <!-- Navbar -->
         <div class="navbar ">
             <div class="navbar-start">
@@ -116,6 +112,20 @@
         <div class="">
             <hr class="flex lg:hidden border-t border-green-400 my-4">
         </div>
+
+
+        <!-- Banner -->
+        <div class="flex flex-col justify-center items-center text-center">
+            <div class="flex max-w-xl flex-col justify-center items-center gap-3">
+                <h1 class="text-5xl ">
+                    Freshness <span class="text-green-400">You Can
+                        Count</span> On, Prices You’ll Love!
+                </h1>
+                <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you
+                    covered every day!</p>
+            </div>
+            <img src="assect/hero-vegetables.png" alt="">
+        </div>
     </header>
 
 
@@ -123,7 +133,271 @@
 
     <!-- main Section -->
     <main>
+        <!-- Services section -->
+        <section class="p-14 lg:p-32">
+            <h1 class="text-[#179800] py-10 font-semibold text-3xl">Services</h1>
+            <div class="flex flex-col lg:flex-row gap-6 justify-center items-center">
+                <div class="card bg-[#EFEBE3] w-96 shadow-xl">
+                    <figure class="  ">
+                        <img src="assect/service.png" class="p-5 mt-5 bg-white rounded-full" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title font-semibold">24/7 Services </h2>
+                        <p class="opacity-[0.7] text-sm">
+                            Fresh Vegetables, 24/7 – Always Open for You!
+                            Your Go-To Veggie Store, Anytime, Anywhere!
+                        </p>
 
+                    </div>
+                </div>
+                <div class="card bg-[#EFEBE3] w-96 shadow-xl">
+                    <figure class="  ">
+                        <img src="assect/delivery.png" class="p-5 mt-5 bg-white rounded-full" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title font-semibold">Fast Delivery</h2>
+                        <p class="opacity-[0.7] text-sm">
+                            Fast & Reliable Delivery, Right to Your Door!
+                            Bringing Freshness to You, Anytime, Anywhere!
+                        </p>
+
+                    </div>
+                </div>
+                <div class="card bg-[#EFEBE3] w-96 shadow-xl">
+                    <figure class="  ">
+                        <img src="assect/healthy.png" class="p-5 mt-5 bg-white rounded-full" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title font-semibold">Healthy Products </h2>
+                        <p class="opacity-[0.7] text-sm">
+                            Your Health, Our Priority – Stay Fit, Stay Strong!
+                            Healthy Living, Happy Life – Start Today!
+
+
+
+
+
+
+
+                        </p>
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </section>
+
+
+        <!-- Popular products -->
+        <section class="p-5 bg-[#EFEBE3] lg:p-32">
+            <h1 class="text-[#179800] py-5 text-3xl font-semibold">Popular Products</h1>
+            <div class="flex justify-center items-center flex-col lg:flex-row gap-6">
+                <div class="card p-14 bg-gradient-to-b from-[#53db3a] to-white  relative w-96 h-96">
+                    <h2 class="card-title font-semibold text-white">30% Off </h2>
+                    <p class="p-3">Here you find fresh fruits and vegatable low cost </p>
+                    <button class="btn bg-white w-28">Buy Now</button>
+                    <img src="assect/vegetable-offer.png" class="absolute right-4 bottom-0" alt="">
+                </div>
+                <div class="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-3">
+                    <div class="card h-26 w-52 bg-white p-2">
+                        <div class="flex m-2 items-center justify-center gap-2">
+                            <img class="bg-[#EFEBE3] rounded-md" src="assect/onion.png" alt="">
+                            <div>
+                                <i class="fa-solid fa-star text-yellow-400"></i><span class="text-sm">4.5</span>
+                                <h1 class="text-xl">Onion 1 Kg</h1>
+                                <h1 class="text-sm">$39.99</h1>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card h-26 w-52 bg-white p-2">
+                        <div class="flex items-center justify-center gap-2">
+                            <img class="bg-[#EFEBE3] rounded-md" src="assect/tomato.png" alt="">
+                            <div>
+                                <i class="fa-solid fa-star text-yellow-400"></i><span class="text-sm">4.5</span>
+                                <h1 class="text-xl">Tomato 500 g </h1>
+                                <h1 class="text-sm">$39.99</h1>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card h-26 w-52 bg-white p-2">
+                        <div class="flex items-center justify-center gap-2">
+                            <img class="bg-[#EFEBE3] rounded-md" src="assect/onion.png" alt="">
+                            <div>
+                                <i class="fa-solid fa-star text-yellow-400"></i><span class="text-sm">4.5</span>
+                                <h1 class="text-xl">Potato 1 KG</h1>
+                                <h1 class="text-sm">$39.99</h1>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card h-26 w-52 bg-white p-2">
+                        <div class="flex items-center justify-center gap-2">
+                            <img class="bg-[#EFEBE3] rounded-md" src="assect/onion.png" alt="">
+                            <div>
+                                <i class="fa-solid fa-star text-yellow-400"></i><span class="text-sm">4.5</span>
+                                <h1 class="text-xl">Onion 1 Kg</h1>
+                                <h1 class="text-sm">$39.99</h1>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card h-26 w-52 bg-white p-2">
+                        <div class="flex items-center justify-center gap-2">
+                            <img class="bg-[#EFEBE3] rounded-md" src="assect/tomato.png" alt="">
+                            <div>
+                                <i class="fa-solid fa-star text-yellow-400"></i><span class="text-sm">4.5</span>
+                                <h1 class="text-xl">Tomato 500 g </h1>
+                                <h1 class="text-sm">$39.99</h1>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card h-26 w-52 bg-white p-2">
+                        <div class="flex items-center justify-center gap-2">
+                            <img class="bg-[#EFEBE3] rounded-md" src="assect/onion.png" alt="">
+                            <div>
+                                <i class="fa-solid fa-star text-yellow-400"></i><span class="text-sm">4.5</span>
+                                <h1 class="text-xl">Potato 1 KG</h1>
+                                <h1 class="text-sm">$39.99</h1>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card h-26 w-52 bg-white p-2">
+                        <div class="flex items-center justify-center gap-2">
+                            <img class="bg-[#EFEBE3] rounded-md" src="assect/onion.png" alt="">
+                            <div>
+                                <i class="fa-solid fa-star text-yellow-400"></i><span class="text-sm">4.5</span>
+                                <h1 class="text-xl">Onion 1 Kg</h1>
+                                <h1 class="text-sm">$39.99</h1>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card h-26 w-52 bg-white p-2">
+                        <div class="flex items-center justify-center gap-2">
+                            <img class="bg-[#EFEBE3] rounded-md" src="assect/tomato.png" alt="">
+                            <div>
+                                <i class="fa-solid fa-star text-yellow-400"></i><span class="text-sm">4.5</span>
+                                <h1 class="text-xl">Tomato 500 g </h1>
+                                <h1 class="text-sm">$39.99</h1>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="hidden lg:flex card h-26 w-52 bg-white p-2">
+                        <div class="flex items-center justify-center gap-2">
+                            <img class="bg-[#EFEBE3] rounded-md" src="assect/onion.png" alt="">
+                            <div>
+                                <i class="fa-solid fa-star text-yellow-400"></i><span class="text-sm">4.5</span>
+                                <h1 class="text-xl">Potato 1 KG</h1>
+                                <h1 class="text-sm">$39.99</h1>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Arrival section -->
+        <div class="relative">
+            <section class="p-5 py-20  bg-white lg:py-32">
+                <h1 class="text-[#179800] py-1  lg:py-5 text-3xl font-semibold">Arrival & Offers</h1>
+                <div class="flex pb-72 flex-col lg:flex-row gap-6">
+                    <div class="bg-[#115414] rounded-lg flex relative items-center gap-3 w-full lg:w-3/5">
+                        <div class="p-3 md:p-14">
+                            <img src="assect/dawat-logo.png" alt="">
+                            <button class="rounded-md px-1 lg:px-8 py-2 my-3 lg:my-6 text-white bg-[#63B76D]">Cook
+                                Exotic Fitness</button>
+                            <h1 class="text-3xl lg:text-5xl text-white">UP to 20% OFF</h1>
+                        </div>
+                        <div class="flex lg:absolute bottom-0 right-0  justify-center lg:h-4/5 items-center">
+                            <img class=" lg:w-4/5 px-1" src="assect/dawat-mock-up.png" alt="">
+                        </div>
+
+                    </div>
+                    <div class="bg-[#102861] rounded-lg flex relative items-center gap-3 w-full lg:w-2/5">
+                        <div class="p-3 w-3/5 md:py-10">
+                            <img src="assect/india-gate-logo.png" alt="">
+                            <button class="rounded-md px-2 lg:px-8 py-2 my-3 lg:my-5 text-white bg-[#2A4D97]">World’s
+                                No.1 Rice</button>
+                            <h1 class="text-3xl lg:text-4xl text-white">UP to 40% OFF</h1>
+                        </div>
+
+                        <div class="flex lg:absolute bottom-0 right-0  justify-center lg:h-4/5 items-center">
+                            <img class=" lg:w-4/5 px-1" src="assect/india-gate-mock-up.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </section>
+            <!-- troggle  Section -->
+            <section
+                class="flex absolute w-[90%] lg:w-[60%] left-[5%] lg:left-[20%] top-[43%] justify-center items-center ">
+                <div class="flex flex-col  bg-[#EFEBE3] p-8 lg:p-20 rounded-lg lg:flex-row gap-5">
+                    <img src="assect/vegetable-busket.png" alt="">
+                    <div class="flex flex-col  justify-center gap-2">
+                        <h1 class=" py-5 font-semibold text-3xl">Get Grocery News!</h1>
+                        <p class="opacity-[0.7] text-sm">Exclusive training tips, ticks, product deals and more.</p>
+                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                        <div>
+                            <button
+                                class="btn align-baseline text-white btn-success bg-[#179800] btn-sm">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="p-5  bg-[#179800] lg:py-32">
+                <div class="pt-40 lg:pt-5">
+                    <div
+                        class=" pt-48 justify-center items-center lg:px-20 lg:pt-40 grid gap-5 text-white grid-cols-1 lg:grid-cols-3">
+                        <div class="pt-20 ">
+                            <img src="assect/Vector.png" alt="">
+
+                            <p class="p-4">
+                                Discover a world of treats, toys, and essentials handpicked for your furry friends
+                            </p>
+                        </div>
+                        <div class=" flex flex-col gap-2">
+                            <ul>
+                                <li class="p-2"><a class="no-underline">Product</a></li>
+                                <li class="p-2"><a class="no-underline">Services</a></li>
+                                <li class="p-2"><a class="no-underline">Contact us</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="lg:pt-20 p-2" flex flex-col gap-4">
+                            <p>Follow Us</p>
+                            <div class="flex  gap-4">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-linkedin-in"></i>
+                                <i class="fa-brands fa-youtube"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
 
     <footer>
